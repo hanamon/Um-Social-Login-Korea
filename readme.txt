@@ -1,3 +1,7 @@
+um-social-login 2.1.0 플러그인을 커스텀하였습니다.
+1. 네이버, 카카오 소셜로그인 추가
+2. CSS 수정 (네이버, 카카오 소셜로그인 버튼 아이콘)
+
 === Ultimate Member - Social Login ===
 Author URI: https://ultimatemember.com/
 Plugin URI: https://ultimatemember.com/extensions/social-login/
