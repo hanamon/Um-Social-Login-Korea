@@ -1,0 +1,338 @@
+.um-social-login-overlay {
+   background: #fff;
+   width: 100%;
+   height: 100%;
+   z-index: 1999992;
+   top: 0;
+   left: 0;
+   position: fixed;
+   opacity: 1;
+}
+
+.um-social-login-wrap {
+   z-index: 1999993;
+   position: fixed;
+   /* top: 0;
+	left: 50%;
+	margin-left: -200px;
+	width: 400px; */
+   width: 100%;
+   box-sizing: border-box;
+   border: 10px solid #fff;
+   border-radius: 5px;
+}
+
+@media screen and (max-width: 500px) {
+   .um-social-login-wrap {
+      width: 100%;
+      left: 0;
+      margin-left: 0;
+      border: 0;
+      border-radius: 0;
+   }
+
+   .um-social-login-wrap .um input[type="submit"].um-button {
+      min-width: 100% !important;
+      width: 100%;
+      font-size: 13px !important;
+      box-sizing: border-box;
+   }
+
+   .um-social-login-cancel {
+      right: 10px !important;
+      top: 2px !important;
+      font-size: 34px !important;
+      height: 34px !important;
+      line-height: 34px !important;
+   }
+
+   .um-social-login-wrap .um label {
+      font-size: 13px !important;
+   }
+
+   .um-social-login-wrap .um .um-field * {
+      font-size: 13px !important;
+   }
+}
+
+.um-social-login-wrap .um.uimob340 {
+   max-width: 100% !important;
+}
+
+.um-social-login-wrap .um {
+   opacity: 1 !important;
+   background: #fff;
+   margin: auto !important;
+   padding: 10px 25px 20px 25px;
+   /*margin: 0 !important; */
+   overflow: auto !important;
+}
+
+.um-social-login-wrap .um p {
+   padding: 0;
+   margin: 0 0 4px 0;
+}
+
+.um-social-login-cancel {
+   position: absolute;
+   right: 20px;
+   top: 5px;
+   font-size: 44px;
+   color: #ccc;
+   text-decoration: none !important;
+   height: 44px;
+   line-height: 44px;
+}
+.um-social-login-cancel:hover {
+   color: #222;
+}
+
+/*
+	Account page design
+*/
+
+.um-provider {
+}
+
+.um-provider a {
+   border-bottom: none !important;
+}
+
+.um-provider-title {
+   font-size: 15px;
+   font-weight: 600;
+   color: #555;
+   padding-bottom: 10px;
+}
+
+.um-provider-conn {
+   font-size: 13px;
+   text-align: left;
+   padding-bottom: 18px;
+}
+
+.um-provider-user-photo {
+   float: left;
+   margin: 4px 10px 0 0;
+}
+
+.um-provider-photo {
+   border-radius: 3px;
+}
+
+.um-provider-photo.small {
+   width: 40px;
+   height: 40px;
+}
+
+.um-provider-disconnect {
+   color: #999;
+   line-height: 14px;
+}
+
+.um-provider-disconnect a {
+   font-size: 11px;
+   color: #999 !important;
+}
+
+/* The buttons */
+
+.um.um-shortcode-social {
+   margin-bottom: 0 !important;
+}
+
+.um-social-btn {
+   display: inline-block;
+   color: #fff;
+   border-radius: 999px;
+   padding: 1px 12px 5px 12px;
+   font-size: 13px;
+   text-decoration: none;
+   position: relative;
+   width: 250px;
+   text-align: center;
+}
+
+.um-social-btn i {
+   font-size: 21px;
+   position: relative;
+   top: 2px;
+   margin-right: 6px;
+}
+
+.um-social-btn:hover {
+   text-decoration: none;
+   color: #fff !important;
+}
+
+.um-social-btn-facebook {
+   background: #3b5998;
+}
+.um-social-btn-facebook:hover {
+   background: #324d84;
+}
+/*.um-button-facebook i.um-faicon-facebook-square{
+	 top: -13px;
+}
+.um-button-facebook i.um-faicon-facebook-square:before{
+	font-size: 35px; 
+	margin-right: 30px;
+}
+.um-button-facebook span{
+	margin-left: 5px;
+}*/
+
+.um-social-btn-twitter {
+   background: #55acee;
+}
+.um-social-btn-twitter:hover {
+   background: #4997d2;
+}
+
+.um-social-btn-google {
+   background: #4285f4;
+}
+.um-social-btn-google:hover {
+   background: #3574de;
+}
+
+.um-social-btn-linkedin {
+   background: #0976b4;
+}
+.um-social-btn-linkedin:hover {
+   background: #07659b;
+}
+
+.um-social-btn-instagram {
+   background: #3f729b;
+}
+.um-social-btn-instagram:hover {
+   background: #4480aa;
+}
+
+.um-social-btn-vk {
+   background: #45668e;
+}
+.um-social-btn-vk:hover {
+   background: #395f8e;
+}
+
+.um-social-btn-github {
+   background: #444444;
+}
+.um-social-btn-github:hover {
+   background: #000000;
+}
+
+.um-social-btn-wordpress {
+   background: #0085ba;
+}
+.um-social-btn-wordpress:hover {
+   background: rgba(0, 133, 186, 0.84);
+}
+
+.um-dropdown a.um-social-login-avatar-change img {
+   float: left;
+}
+.um-dropdown span.um-social-login-avatar-change {
+   padding: 10px 15px 15px 45px;
+   margin-left: 5px;
+   display: block;
+   text-align: left;
+}
+
+/*Fix for Select2 on social login connect popup*/
+.select2-drop-mask {
+   z-index: 1999994;
+}
+
+.select2-drop {
+   z-index: 1999995;
+}
+
+@media (min-width: 418px) and (max-width: 500px) {
+   .um-button.um-button-social i {
+      float: left;
+      top: -2px;
+      display: block;
+      margin: 0 10px 0 10px;
+   }
+
+   .um-button.um-button-social span {
+      float: left;
+      margin: 0;
+      text-align: left;
+      display: block;
+      box-sizing: border-box;
+      width: calc(100% - 50px);
+   }
+}
+
+.pac-container {
+   z-index: 10000000;
+}
+
+.um-sso-icon-google::before {
+   background: url("./../images/btn_google_dark_normal_ios.svg");
+   background-size: cover;
+   background-repeat: no-repeat;
+   content: "\00a0";
+   display: inline-block;
+   width: 40px;
+   height: 40px;
+}
+
+.um-dropdown-b .um-sso-icon-google::before {
+   width: 15px !important;
+   height: 15px !important;
+}
+.um-shortcode-social .um-button-social.um-button-google i {
+   top: -13px !important;
+   left: -13% !important;
+}
+.um-form .um-button-social.um-button-google i {
+   top: -15px !important;
+   left: -13% !important;
+}
+
+@media (max-width: 500px) and (min-width: 418px) {
+   .um-form .um-button-social.um-button-google i {
+      top: -13px !important;
+      left: 0% !important;
+      width: 30px;
+      height: 30px;
+   }
+
+   .um-shortcode-social .um-button-social.um-button-google i {
+      top: -13px !important;
+      left: -10% !important;
+      width: 30px;
+      height: 30px;
+   }
+}
+
+.um-social-btn i::before {
+	vertical-align:middle !important;
+}
+.um-social-btn span {
+	display:inline-block;
+	vertical-align:middle;
+}
+.um-faicon-kor-kakao::before {
+    background-image: url(../images/Kakao.png);
+	background-size: cover;
+    background-repeat: no-repeat;
+    content: "\00a0";
+    display: inline-block;
+    width: 20px;
+    height: 20px;
+}
+.um-faicon-kor-naver::before {
+    background-image: url(../images/Naver.png);
+	background-size: cover;
+    background-repeat: no-repeat;
+    content: "\00a0";
+    display: inline-block;
+    width: 20px;
+    height: 20px;
+}
