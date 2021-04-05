@@ -44,8 +44,9 @@ function um_social_login_networks( $networks ){
 		'bg_hover' 	=> '#F2CF07',
 		'icon' 		=> 'um-faicon-kor-kakao',
 		'opts' 		=> array(
-			// 'kakao_client_id'   => __( 'REST API Key', 'um-social-login' ),
+			//'kakao_client_id'   => __( 'REST API Key', 'um-social-login' ),
 			'kakao_api_key' 	=> __( 'REST API Key', 'um-social-login' ),
+			'kakao_api_secret'  => __( 'Client Secret', 'um-social-login' ),
 		),
 		'sync' 		=> array(
 			'handle' 		=> 'kakao_handle',
