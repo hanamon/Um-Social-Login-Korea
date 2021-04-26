@@ -1,4 +1,4 @@
-# um-social-login 2.1.0 플러그인을 커스텀하였습니다.
+# Ultimate Member - Social Login 2.1.0 플러그인 Fork
 작업 완료...
 
 ## 작업 순서 기록
